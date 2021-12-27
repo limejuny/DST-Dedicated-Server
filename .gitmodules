@@ -1,3 +1,4 @@
 [submodule "DoNotStarveTogether/Cluster_1"]
 	path = DoNotStarveTogether/Cluster_1
 	url = https://github.com/limejuny/DST-Server-Cluster.git
+	branch = master
