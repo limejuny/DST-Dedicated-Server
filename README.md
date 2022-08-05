@@ -16,6 +16,5 @@ $ git pull --recurse-submodules
   * as of Oracle Cloud ```VM.Standard.E2.1.Micro``` instance.
 
 ```bash
-$ docker run --rm --name dst-server -d -v ${HOME}/.klei/DoNotStarveTogether:/data -p 10999-11000:10999-11000/udp -
-p 12346-12347:12346-12347/udp -it dst-server:latest
+$ docker run --rm --name dst-server -d -v ${HOME}/.klei/DoNotStarveTogether:/data -p 10999-11000:10999-11000/udp -p 12346-12347:12346-12347/udp -it dst-server:latest
 ```
